@@ -1,0 +1,27 @@
+img {
+  object-fit: contain;
+  max-height: 70px;
+  max-width: 70px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s ease-in;
+  align-items: center;
+  flex-basis: 15%;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+
+.input-search {
+  padding-bottom: 15px;
+}
